@@ -1,7 +1,8 @@
 {
-  "name": "my-package",
-  "scripts": {
-    "build": "babel src -d lib",
-    "prebuild": "jest"
-  }
+  "name": "simple-html-project",
+  "version": "1.0.0",
+  "description": "A simple HTML project with index.html and dashboard.html",
+  "keywords": ["html", "dashboard"],
+  "author": "Your Name",
+  "license": "MIT"
 }
