@@ -1,0 +1,22 @@
+name: Meticulous CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Meticulous tests
+        uses: alwaysmeticulous/report-diffs-action@v1
+        with:
+          # Specify any required inputs for the action
