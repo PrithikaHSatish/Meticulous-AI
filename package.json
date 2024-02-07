@@ -4,8 +4,8 @@
   "description": "A simple project with two HTML pages",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Building the project...'", 
-    "start": "echo 'Starting the project...'", 
+    "build": "echo 'Building the project...'",
+    "start": "echo 'Starting the project...'",
     "test": "echo 'Running tests...'"
   },
   "keywords": ["html", "project", "dashboard"],
