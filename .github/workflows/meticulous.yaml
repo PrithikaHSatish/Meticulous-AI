@@ -78,4 +78,4 @@ jobs:
         with:
           api-token: ${{ secrets.METICULOUS_API_TOKEN }}
           # TODO: Update the port and protocol below to match your app's frontend
-          app-url: "meticulous-ai-dun.vercel.app"
+          app-url: "https://meticulous-ai-dun.vercel.app/"
