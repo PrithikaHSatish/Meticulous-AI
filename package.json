@@ -1,16 +1,16 @@
 {
-  "name": "my-project",
+  "name": "html-server",
   "version": "1.0.0",
-  "description": "A simple project with two HTML pages",
-  "main": "index.html",
+  "description": "Node.js server to serve HTML files",
   "scripts": {
-    "build": "echo 'Building the project...'",
-    "start": "echo 'Starting the project...'",
-    "test": "echo 'Running tests...'"
+    "start": "node server.js"
   },
-  "keywords": ["html", "project", "dashboard"],
+  "keywords": ["node", "html", "server"],
   "author": "Your Name",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "http": "^0.0.0",
+    "fs": "^0.0.0",
+    "path": "^0.0.0" 
+  }
 }

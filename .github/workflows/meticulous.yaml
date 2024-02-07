@@ -78,4 +78,4 @@ jobs:
         with:
           api-token: ${{ secrets.es9g44PoxEANWPFW5GACFrZhK1x4Bo6TQ2ckQm23 }}
           # TODO: Update the port and protocol below to match your app's frontend
-          app-url: "http://localhost:8000/"
+          app-url: "http://localhost:3000/"
