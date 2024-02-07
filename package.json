@@ -1,8 +1,16 @@
 {
-  "name": "simple-html-project",
+  "name": "html-server",
   "version": "1.0.0",
-  "description": "A simple HTML project with index.html and dashboard.html",
-  "keywords": ["html", "dashboard"],
+  "description": "Node.js server to serve HTML files",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["node", "html", "server"],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.0",
+    "fs": "^0.0.0",
+    "path": "^0.0.0" 
+  }
 }
