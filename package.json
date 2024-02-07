@@ -4,9 +4,9 @@
   "description": "A simple project with two HTML pages",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Building the project...'", // Custom build script placeholder
-    "start": "echo 'Starting the project...'", // Placeholder for starting the project
-    "test": "echo 'Running tests...'" // Placeholder for running tests
+    "build": "echo 'Building the project...'", 
+    "start": "echo 'Starting the project...'", 
+    "test": "echo 'Running tests...'"
   },
   "keywords": ["html", "project", "dashboard"],
   "author": "Your Name",
