@@ -31,6 +31,19 @@
 			<button type="submit">Cancel</button>
         </form>
     </div>
+	<div>
+	 <form id="loginForm1" onsubmit="return validateLogin()">
+            <label for="username">Username  :>>>></label>
+
+            <input type="text" id="username1" name="username" required>
+			
+            <label for="password">Password:</label>
+            <input type="password" id="password1" name="password" required>
+			
+            <button type="submit">Login</button>
+			<button type="submit">Cancel</button>
+        </form>
+	</div>
 
     <script>
         function validateLogin() {
