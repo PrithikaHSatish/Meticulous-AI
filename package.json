@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Node.js server to serve HTML files",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+	"build": "echo 'Build completed successfully!'"
   },
   "keywords": ["node", "html", "server"],
   "author": "Prithika",
